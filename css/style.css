@@ -66,3 +66,67 @@ a{
     /* opacity: 0.5s;
     transition: 0.5s; */
 }
+
+.metro
+{
+    background-color: white;
+    padding: 5% 0;
+    text-align: center;
+}
+
+.metro h1
+{
+    /* text-align: center; */
+    font-size: 50px;
+}
+
+.metro .seprator
+{
+    width: 27%;
+    height: 1px;
+    background-color: #c3c3c3;
+    display: block;
+    margin: auto;
+    margin-top: 5%;
+}
+
+.metro p
+{
+    padding-top: 5%;
+    color: black;
+    font-size: 30px;
+    font-family: Montserrat;
+}
+
+.metro .image-1st
+{
+
+}
+
+.metro .image-1st .wrapper-main
+{
+    margin-top: 30px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+.metro .image-1st .wrapper-main img
+{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.metro .btn 
+{
+    margin-top: 5%;
+}
+
+.metro .btn a
+{
+    font-size: 20px;
+    color: white;
+    background-color: purple;
+    padding: 10px 25px 10px 20px;
+}
