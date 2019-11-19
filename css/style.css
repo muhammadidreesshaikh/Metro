@@ -23,3 +23,46 @@ p, h1 ,h2 ,h3, h4, h5, h6 {
 a{
     text-decoration: none !important;
 }
+
+.top-bar 
+{
+    background-color: black;
+    padding: 4% 0;
+}
+
+.top-bar a 
+{
+    
+}
+
+.top-bar a img
+{
+    width: 70%;
+}
+
+.top-bar .nav
+{
+    /* float: right; */
+    padding-top: 3%;
+}
+
+.top-bar .nav ul
+{
+    display: flex;
+    list-style: none;
+}
+
+.top-bar .nav li a
+{
+    padding: 10px 23px 10px 23px;
+    font-size: 16px;
+    color: white;
+}
+
+.top-bar .nav li a:hover
+{
+    background-color: rgb(49, 48, 48);
+    color: rgb(216, 100, 139);
+    /* opacity: 0.5s;
+    transition: 0.5s; */
+}
